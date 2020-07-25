@@ -1,0 +1,10 @@
+
+                * * * * *   Finest and Coarse Grids   * * * * *
+
+                            X-Direction: LeXmax = 1
+ 
+   LevelX=0  GridsX=  1  NxA=  18  Nx=  10  topX=  -3  botX=  15  w =  1.000
+ 
+   LevelX=1  GridsX=  1  NxA=   6  Nx=   2  topX=  -1  botX=   5  w =  1.000
+   LevelX=1  GridsX=  2  NxA=   5  Nx=   3  topX=   0  botX=   5  w =  1.000
+   LevelX=1  GridsX=  3  NxA=   5  Nx=   3  topX=   0  botX=   5  w =  1.000

@@ -1,0 +1,20 @@
+
+                * * * * *   Finest and Coarse Grids   * * * * *
+
+                            Y-Direction: LeYmax = 2
+ 
+   LevelY=0  GridsY=  1  NyA=  53  Ny=  33  topY=  -9  botY=  44  w = 1.2098
+ 
+   LevelY=1  GridsY=  1  NyA=  17  Ny=  10  topY=  -3  botY=  14  w = 1.7705
+   LevelY=1  GridsY=  2  NyA=  17  Ny=  11  topY=  -2  botY=  15  w = 1.7705
+   LevelY=1  GridsY=  3  NyA=  17  Ny=  10  topY=  -2  botY=  15  w = 1.7705
+ 
+   LevelY=2  GridsY=  1  NyA=   5  Ny=   2  topY=  -1  botY=   4  w = 1.0000
+   LevelY=2  GridsY=  2  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 3.9134
+   LevelY=2  GridsY=  3  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 2.1184
+   LevelY=2  GridsY=  4  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 5.0833
+   LevelY=2  GridsY=  5  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 3.2792
+   LevelY=2  GridsY=  6  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.6213
+   LevelY=2  GridsY=  7  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 4.5376
+   LevelY=2  GridsY=  8  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 2.6740
+   LevelY=2  GridsY=  9  NyA=   5  Ny=   2  topY=   0  botY=   5  w = 1.0000

@@ -1,0 +1,48 @@
+
+                * * * * *   Finest and Coarse Grids   * * * * *
+
+                            Z-Direction: LeZmax = 3
+ 
+   LevelZ=0  GridsZ=  1  NzA= 156  Nz= 100  topZ= -27  botZ= 129  w = 1.0000
+ 
+   LevelZ=1  GridsZ=  1  NzA=  52  Nz=  32  topZ=  -9  botZ=  43  w = 1.0000
+   LevelZ=1  GridsZ=  2  NzA=  51  Nz=  33  topZ=  -8  botZ=  43  w = 1.0000
+   LevelZ=1  GridsZ=  3  NzA=  51  Nz=  33  topZ=  -8  botZ=  43  w = 1.0000
+ 
+   LevelZ=2  GridsZ=  1  NzA=  17  Nz=  10  topZ=  -3  botZ=  14  w = 1.0000
+   LevelZ=2  GridsZ=  2  NzA=  17  Nz=  10  topZ=  -2  botZ=  15  w = 1.0000
+   LevelZ=2  GridsZ=  3  NzA=  16  Nz=  10  topZ=  -2  botZ=  14  w = 1.0000
+   LevelZ=2  GridsZ=  4  NzA=  17  Nz=  11  topZ=  -2  botZ=  15  w = 1.0000
+   LevelZ=2  GridsZ=  5  NzA=  16  Nz=  10  topZ=  -2  botZ=  14  w = 1.0000
+   LevelZ=2  GridsZ=  6  NzA=  16  Nz=  10  topZ=  -2  botZ=  14  w = 1.0000
+   LevelZ=2  GridsZ=  7  NzA=  17  Nz=  11  topZ=  -2  botZ=  15  w = 1.0000
+   LevelZ=2  GridsZ=  8  NzA=  16  Nz=  10  topZ=  -2  botZ=  14  w = 1.0000
+   LevelZ=2  GridsZ=  9  NzA=  16  Nz=  10  topZ=  -2  botZ=  14  w = 1.0000
+ 
+   LevelZ=3  GridsZ=  1  NzA=   5  Nz=   2  topZ=  -1  botZ=   4  w = 1.0000
+   LevelZ=3  GridsZ=  2  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ=  3  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ=  4  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ=  5  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ=  6  NzA=   5  Nz=   2  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ=  7  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ=  8  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ=  9  NzA=   4  Nz=   2  topZ=   0  botZ=   4  w = 1.0000
+   LevelZ=3  GridsZ= 10  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ= 11  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ= 12  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ= 13  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ= 14  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ= 15  NzA=   4  Nz=   2  topZ=   0  botZ=   4  w = 1.0000
+   LevelZ=3  GridsZ= 16  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ= 17  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ= 18  NzA=   4  Nz=   2  topZ=   0  botZ=   4  w = 1.0000
+   LevelZ=3  GridsZ= 19  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ= 20  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ= 21  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ= 22  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ= 23  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ= 24  NzA=   4  Nz=   2  topZ=   0  botZ=   4  w = 1.0000
+   LevelZ=3  GridsZ= 25  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ= 26  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.0000
+   LevelZ=3  GridsZ= 27  NzA=   4  Nz=   2  topZ=   0  botZ=   4  w = 1.0000

@@ -1,0 +1,20 @@
+
+                * * * * *   Finest and Coarse Grids   * * * * *
+
+                            Z-Direction: LeZmax = 2
+ 
+   LevelZ=0  GridsZ=  1  NzA=  53  Nz=  33  topZ=  -9  botZ=  44  w = 1.2098
+ 
+   LevelZ=1  GridsZ=  1  NzA=  17  Nz=  10  topZ=  -3  botZ=  14  w = 1.7705
+   LevelZ=1  GridsZ=  2  NzA=  17  Nz=  11  topZ=  -2  botZ=  15  w = 1.7705
+   LevelZ=1  GridsZ=  3  NzA=  17  Nz=  10  topZ=  -2  botZ=  15  w = 1.7705
+ 
+   LevelZ=2  GridsZ=  1  NzA=   5  Nz=   2  topZ=  -1  botZ=   4  w = 1.0000
+   LevelZ=2  GridsZ=  2  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 3.9134
+   LevelZ=2  GridsZ=  3  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 2.1184
+   LevelZ=2  GridsZ=  4  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 5.0833
+   LevelZ=2  GridsZ=  5  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 3.2792
+   LevelZ=2  GridsZ=  6  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 1.6213
+   LevelZ=2  GridsZ=  7  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 4.5376
+   LevelZ=2  GridsZ=  8  NzA=   5  Nz=   3  topZ=   0  botZ=   5  w = 2.6740
+   LevelZ=2  GridsZ=  9  NzA=   5  Nz=   2  topZ=   0  botZ=   5  w = 1.0000

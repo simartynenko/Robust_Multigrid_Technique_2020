@@ -1,0 +1,48 @@
+
+                * * * * *   Finest and Coarse Grids   * * * * *
+
+                            Y-Direction: LeYmax = 3
+ 
+   LevelY=0  GridsY=  1  NyA= 156  Ny= 100  topY= -27  botY= 129  w = 1.0000
+ 
+   LevelY=1  GridsY=  1  NyA=  52  Ny=  32  topY=  -9  botY=  43  w = 1.0000
+   LevelY=1  GridsY=  2  NyA=  51  Ny=  33  topY=  -8  botY=  43  w = 1.0000
+   LevelY=1  GridsY=  3  NyA=  51  Ny=  33  topY=  -8  botY=  43  w = 1.0000
+ 
+   LevelY=2  GridsY=  1  NyA=  17  Ny=  10  topY=  -3  botY=  14  w = 1.0000
+   LevelY=2  GridsY=  2  NyA=  17  Ny=  10  topY=  -2  botY=  15  w = 1.0000
+   LevelY=2  GridsY=  3  NyA=  16  Ny=  10  topY=  -2  botY=  14  w = 1.0000
+   LevelY=2  GridsY=  4  NyA=  17  Ny=  11  topY=  -2  botY=  15  w = 1.0000
+   LevelY=2  GridsY=  5  NyA=  16  Ny=  10  topY=  -2  botY=  14  w = 1.0000
+   LevelY=2  GridsY=  6  NyA=  16  Ny=  10  topY=  -2  botY=  14  w = 1.0000
+   LevelY=2  GridsY=  7  NyA=  17  Ny=  11  topY=  -2  botY=  15  w = 1.0000
+   LevelY=2  GridsY=  8  NyA=  16  Ny=  10  topY=  -2  botY=  14  w = 1.0000
+   LevelY=2  GridsY=  9  NyA=  16  Ny=  10  topY=  -2  botY=  14  w = 1.0000
+ 
+   LevelY=3  GridsY=  1  NyA=   5  Ny=   2  topY=  -1  botY=   4  w = 1.0000
+   LevelY=3  GridsY=  2  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY=  3  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY=  4  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY=  5  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY=  6  NyA=   5  Ny=   2  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY=  7  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY=  8  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY=  9  NyA=   4  Ny=   2  topY=   0  botY=   4  w = 1.0000
+   LevelY=3  GridsY= 10  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY= 11  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY= 12  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY= 13  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY= 14  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY= 15  NyA=   4  Ny=   2  topY=   0  botY=   4  w = 1.0000
+   LevelY=3  GridsY= 16  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY= 17  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY= 18  NyA=   4  Ny=   2  topY=   0  botY=   4  w = 1.0000
+   LevelY=3  GridsY= 19  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY= 20  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY= 21  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY= 22  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY= 23  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY= 24  NyA=   4  Ny=   2  topY=   0  botY=   4  w = 1.0000
+   LevelY=3  GridsY= 25  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY= 26  NyA=   5  Ny=   3  topY=   0  botY=   5  w = 1.0000
+   LevelY=3  GridsY= 27  NyA=   4  Ny=   2  topY=   0  botY=   4  w = 1.0000

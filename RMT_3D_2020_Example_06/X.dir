@@ -1,0 +1,48 @@
+
+                * * * * *   Finest and Coarse Grids   * * * * *
+
+                            X-Direction: LeXmax = 3
+ 
+   LevelX=0  GridsX=  1  NxA= 179  Nx= 123  topX= -27  botX= 152  w =  1.000
+ 
+   LevelX=1  GridsX=  1  NxA=  59  Nx=  40  topX=  -9  botX=  50  w =  1.000
+   LevelX=1  GridsX=  2  NxA=  59  Nx=  41  topX=  -8  botX=  51  w =  1.000
+   LevelX=1  GridsX=  3  NxA=  59  Nx=  40  topX=  -8  botX=  51  w =  1.000
+ 
+   LevelX=2  GridsX=  1  NxA=  19  Nx=  12  topX=  -3  botX=  16  w =  1.000
+   LevelX=2  GridsX=  2  NxA=  19  Nx=  13  topX=  -2  botX=  17  w =  1.000
+   LevelX=2  GridsX=  3  NxA=  19  Nx=  13  topX=  -2  botX=  17  w =  1.000
+   LevelX=2  GridsX=  4  NxA=  19  Nx=  13  topX=  -2  botX=  17  w =  1.000
+   LevelX=2  GridsX=  5  NxA=  19  Nx=  13  topX=  -2  botX=  17  w =  1.000
+   LevelX=2  GridsX=  6  NxA=  19  Nx=  13  topX=  -2  botX=  17  w =  1.000
+   LevelX=2  GridsX=  7  NxA=  19  Nx=  13  topX=  -2  botX=  17  w =  1.000
+   LevelX=2  GridsX=  8  NxA=  19  Nx=  13  topX=  -2  botX=  17  w =  1.000
+   LevelX=2  GridsX=  9  NxA=  19  Nx=  12  topX=  -2  botX=  17  w =  1.000
+ 
+   LevelX=3  GridsX=  1  NxA=   6  Nx=   3  topX=  -1  botX=   5  w =  1.000
+   LevelX=3  GridsX=  2  NxA=   6  Nx=   4  topX=   0  botX=   6  w =  1.000
+   LevelX=3  GridsX=  3  NxA=   5  Nx=   3  topX=   0  botX=   5  w =  1.000
+   LevelX=3  GridsX=  4  NxA=   6  Nx=   4  topX=   0  botX=   6  w =  1.000
+   LevelX=3  GridsX=  5  NxA=   6  Nx=   4  topX=   0  botX=   6  w =  1.000
+   LevelX=3  GridsX=  6  NxA=   5  Nx=   3  topX=   0  botX=   5  w =  1.000
+   LevelX=3  GridsX=  7  NxA=   6  Nx=   4  topX=   0  botX=   6  w =  1.000
+   LevelX=3  GridsX=  8  NxA=   6  Nx=   4  topX=   0  botX=   6  w =  1.000
+   LevelX=3  GridsX=  9  NxA=   5  Nx=   3  topX=   0  botX=   5  w =  1.000
+   LevelX=3  GridsX= 10  NxA=   6  Nx=   4  topX=   0  botX=   6  w =  1.000
+   LevelX=3  GridsX= 11  NxA=   6  Nx=   4  topX=   0  botX=   6  w =  1.000
+   LevelX=3  GridsX= 12  NxA=   5  Nx=   3  topX=   0  botX=   5  w =  1.000
+   LevelX=3  GridsX= 13  NxA=   6  Nx=   4  topX=   0  botX=   6  w =  1.000
+   LevelX=3  GridsX= 14  NxA=   6  Nx=   4  topX=   0  botX=   6  w =  1.000
+   LevelX=3  GridsX= 15  NxA=   5  Nx=   3  topX=   0  botX=   5  w =  1.000
+   LevelX=3  GridsX= 16  NxA=   6  Nx=   4  topX=   0  botX=   6  w =  1.000
+   LevelX=3  GridsX= 17  NxA=   6  Nx=   4  topX=   0  botX=   6  w =  1.000
+   LevelX=3  GridsX= 18  NxA=   5  Nx=   3  topX=   0  botX=   5  w =  1.000
+   LevelX=3  GridsX= 19  NxA=   6  Nx=   4  topX=   0  botX=   6  w =  1.000
+   LevelX=3  GridsX= 20  NxA=   6  Nx=   4  topX=   0  botX=   6  w =  1.000
+   LevelX=3  GridsX= 21  NxA=   5  Nx=   3  topX=   0  botX=   5  w =  1.000
+   LevelX=3  GridsX= 22  NxA=   6  Nx=   4  topX=   0  botX=   6  w =  1.000
+   LevelX=3  GridsX= 23  NxA=   6  Nx=   4  topX=   0  botX=   6  w =  1.000
+   LevelX=3  GridsX= 24  NxA=   5  Nx=   3  topX=   0  botX=   5  w =  1.000
+   LevelX=3  GridsX= 25  NxA=   6  Nx=   4  topX=   0  botX=   6  w =  1.000
+   LevelX=3  GridsX= 26  NxA=   6  Nx=   3  topX=   0  botX=   6  w =  1.000
+   LevelX=3  GridsX= 27  NxA=   5  Nx=   3  topX=   0  botX=   5  w =  1.000
