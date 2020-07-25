@@ -15,7 +15,7 @@ NXX_FG = 50;  h_x = 1.d0/dfloat(NXX_FG);  a_ = 1.d0                       ! 002
 NYY_FG = 50;  h_y = 1.d0/dfloat(NYY_FG);  b_ = 1.d0                       ! 003
 NZZ_FG = 50;  h_z = 1.d0/dfloat(NZZ_FG);  c_ = 1.d0                       ! 004
       pGS_IterMAX = 1000000;         ItCheck = 1000                       ! 005
-           ResLIM = 1.d-7                                                 ! 006
+           ResLIM = 1.d-7;         Iteration = 0                          ! 006
 
 allocate(u(0:NXX_FG+2,0:NYY_FG+2,0:NZZ_FG+2), &                           ! 007 
          f(0:NXX_FG+2,0:NYY_FG+2,0:NZZ_FG+2))                             ! 007
