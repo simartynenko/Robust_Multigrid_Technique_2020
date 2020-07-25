@@ -7,7 +7,9 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  Fortran-CI:
+    name: ubuntu-20.04
+    
     runs-on: ubuntu-20.04
 
     steps:
@@ -25,5 +27,12 @@ jobs:
         
     - name: Build and run example 01
       run: |
-        gfortran RMT_3D_2020_Example_01/RMT_3D_2020_Example_01.f90 -o RMT_3D_2020_Example_01/RMT_3D_2020_Example_01
-        RMT_3D_2020_Example_01/RMT_3D_2020_Example_01        
+        gfortran -O3 RMT_3D_2020_Example_01/RMT_3D_2020_Example_01.f90 -o RMT_3D_2020_Example_01/RMT_3D_2020_Example_01
+        RMT_3D_2020_Example_01/RMT_3D_2020_Example_01
+        
+    - name: Build and run example 02
+      run: |
+        gfortran -O3 RMT_3D_2020_Example_02/RMT_3D_2020_Example_02_1.f90 -c -o RMT_3D_2020_Example_02_1.o
+        gfortran -O3 RMT_3D_2020_Example_02/RMT_3D_2020_Example_02_2.f90 -c -o RMT_3D_2020_Example_02_2.o
+        gfortran -O3 RMT_3D_2020_Example_02/RMT_3D_2020_Example_02_M.f90 RMT_3D_2020_Example_02_1.o RMT_3D_2020_Example_02_2.o -o RMT_3D_2020_Example_02/RMT_3D_2020_Example_02_M
+        RMT_3D_2020_Example_02/RMT_3D_2020_Example_02_M
