@@ -1,0 +1,29 @@
+name: Fortran CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get install gfortran
+
+    - name: Build shared modules
+      run: |
+        gfortran -O3 RMT_3D_NFG.f90 -IRMT_Linux_x86_64 -c -o RMT_3D_NFG.o        
+        gfortran -O3 RMT_3D_NFG2.f90 -IRMT_Linux_x86_64 -c -o RMT_3D_NFG2.o
+        gfortran -O3 RMT_3D_UFG.f90 -IRMT_Linux_x86_64 -c -o RMT_3D_UFG.o
+        
+    - name: Build and run example 01
+      run: |
+        gfortran RMT_3D_2020_Example_01/RMT_3D_2020_Example_01.f90 -o RMT_3D_2020_Example_01/RMT_3D_2020_Example_01
+        RMT_3D_2020_Example_01/RMT_3D_2020_Example_01        
