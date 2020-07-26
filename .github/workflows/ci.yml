@@ -21,9 +21,9 @@ jobs:
 
     - name: Build shared modules
       run: |
-        gfortran -O3 RMT_3D_NFG.f90 -lRMT_3D_2020 -IRMT_Linux_x86_64 -LRMT_Linux_x86_64 -c -o RMT_3D_NFG.o        
-        gfortran -O3 RMT_3D_NFG2.f90 -lRMT_3D_2020 -IRMT_Linux_x86_64 -LRMT_Linux_x86_64 -c -o RMT_3D_NFG2.o
-        gfortran -O3 RMT_3D_UFG.f90 -lRMT_3D_2020 -IRMT_Linux_x86_64 -LRMT_Linux_x86_64 -c -o RMT_3D_UFG.o
+        gfortran -O3 RMT_3D_NFG.f90 -IRMT_Linux_x86_64 -c -o RMT_3D_NFG.o        
+        gfortran -O3 RMT_3D_NFG2.f90 -IRMT_Linux_x86_64 -c -o RMT_3D_NFG2.o
+        gfortran -O3 RMT_3D_UFG.f90 -IRMT_Linux_x86_64 -c -o RMT_3D_UFG.o
         
     - name: Build and run example 01
       run: |
