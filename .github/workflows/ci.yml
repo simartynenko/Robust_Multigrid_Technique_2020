@@ -38,6 +38,11 @@ jobs:
         gfortran -O3 RMT_3D_2020_Example_02/RMT_3D_2020_Example_02_M.f90 RMT_3D_2020_Example_02_1.o RMT_3D_2020_Example_02_2.o RMT_3D_TIMES.o -o RMT_3D_2020_Example_02/RMT_3D_2020_Example_02_M
         RMT_3D_2020_Example_02/RMT_3D_2020_Example_02_M
         
+    - name: Build and run example 03
+      run: |
+        gfortran -O3 RMT_3D_2020_Example_03/RMT_3D_2020_Example_03.f90 RMT_3D_UFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_03/RMT_3D_2020_Example_03
+        RMT_3D_2020_Example_03/RMT_3D_2020_Example_03
+
     - name: Build and run example 09
       run: |
         gfortran -O3 RMT_3D_2020_Example_09/RMT_3D_2020_Example_09_1.f90 -c -o RMT_3D_2020_Example_09_1.o
