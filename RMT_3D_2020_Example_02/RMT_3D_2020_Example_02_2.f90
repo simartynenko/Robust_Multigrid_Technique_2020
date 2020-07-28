@@ -1,10 +1,11 @@
 MODULE RMT_3D_2020_Example_02_2
 USE    RMT_3D_2020_Example_02_1
+USE    RMT_3D_TIMES
 
 PRIVATE
 
 PUBLIC :: MSSize, Starting_Guess_and_Boundary_Conditions, GAUSSIAN_ELIMINATION
-PUBLIC :: TimeS,Convergence_Test
+PUBLIC :: Convergence_Test
 
 CONTAINS
     
@@ -143,13 +144,5 @@ S          = AG(I,N1)
 xG(I)      = S
 end do
 END SUBROUTINE GAUSSIAN_ELIMINATION
-
-    
-SUBROUTINE  TimeS(The_Time)
-integer     IHR,IMIN,ISEC,I100TH,The_Time
-call GETTIM(IHR,IMIN,ISEC,I100TH)
-The_Time  = IHR*3600 + IMIN*60 + ISEC
-END SUBROUTINE TimeS
-                             
 
 END MODULE RMT_3D_2020_Example_02_2
