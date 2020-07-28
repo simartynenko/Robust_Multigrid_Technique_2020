@@ -41,5 +41,5 @@ jobs:
       run: |
         gfortran -O3 RMT_3D_2020_Example_09/RMT_3D_2020_Example_09_1.f90 -c -o RMT_3D_2020_Example_09_1.o
         gfortran -O3 RMT_3D_2020_Example_09/RMT_3D_2020_Example_09_2.f90 -IRMT_Linux_x86_64 -c -o RMT_3D_2020_Example_09_2.o
-        gfortran -O3 RMT_3D_2020_Example_09/RMT_3D_2020_Example_09_M.f90 RMT_3D_2020_Example_09_1.o RMT_3D_2020_Example_09_2.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -o RMT_3D_2020_Example_09/RMT_3D_2020_Example_09_M
+        gfortran -O3 RMT_3D_2020_Example_09/RMT_3D_2020_Example_09_M.f90 RMT_3D_2020_Example_09_1.o RMT_3D_2020_Example_09_2.o RMT_3D_UFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_09/RMT_3D_2020_Example_09_M
         RMT_3D_2020_Example_09/RMT_3D_2020_Example_09_M
