@@ -26,7 +26,7 @@ This book presents a detailed description of a robust pseudomultigrid algorithm 
 
 * Module `RMT_3D_UFG` (§ 2 chapter II, p. 70) includes the subprogram `U_Finest_Grid` for the uniform grid generation using (2.1)–(2.4).
 
-* Module `RMT_3D_NFG` (§ 6 chapter. II, p. 93) includes subprograms `Finest_Grid` and `CELLS` for the nonuniform grid generation. Finite volume faces are located between the vertices. 
+* Module `RMT_3D_NFG` (§ 6 chapter II, p. 93) includes subprograms `Finest_Grid` and `CELLS` for the nonuniform grid generation. Finite volume faces are located between the vertices. 
 
 * Module `RMT_3D_NFG2` (§ 6 chapter II, p. 97) includes subprograms `Finest_Grid` and `CELLS` for the nonuniform grid generation. Vertices are located between the finite volume faces.
 
