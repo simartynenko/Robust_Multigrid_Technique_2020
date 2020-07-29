@@ -22,7 +22,7 @@ This book presents a detailed description of a robust pseudomultigrid algorithm 
 ## List of modules
 
 * Multigrid modules `RMT_3D_2020` (§ 1, § 3 chapter 2) includes subprograms for main components RMT for solving 3D boundary value problems.
-The multigrid module is available as a static library only for Intel Fortran Compiler under Windows and GFortran under Linux operation systems.
+*The multigrid module is available as a static library only for Intel Fortran Compiler under Windows and GFortran under Linux operation systems.*
 
 * Module `RMT_3D_UFG` (§ 2 chapter II, p. 70) includes the subprogram `U_Finest_Grid` for the uniform grid generation using (2.1)–(2.4).
 
