@@ -1,4 +1,4 @@
-# Book: S.&nbsp;I.&nbsp;Martynenko *“Sequential Software for the Robust Multigrid Technique”*
+# The book: *“Sequential Software for the Robust Multigrid Technique”* by S.&nbsp;I.&nbsp;Martynenko
 
 [![Fortran CI](https://github.com/simartynenko/Robust_Multigrid_Technique_2020/workflows/Fortran%20CI/badge.svg)](https://github.com/simartynenko/Robust_Multigrid_Technique_2020/actions?query=workflow%3A%22Fortran+CI%22)
 
