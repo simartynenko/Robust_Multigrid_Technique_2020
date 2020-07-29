@@ -1,6 +1,7 @@
 MODULE  RMT_3D_2020_Example_13_2
 USE     RMT_3D_2020_Example_13_1
 USE     RMT_3D_2020
+USE     RMT_3D_TIMES
 
 PRIVATE
 
@@ -568,13 +569,4 @@ xG(I)      = S
 end do
 END SUBROUTINE GAUSSIAN_ELIMINATION
 
-
-subroutine  TimeS(The_Time)
-integer     IHR,IMIN,ISEC,I100TH,The_Time
-call GETTIM(IHR,IMIN,ISEC,I100TH)
-The_Time  = IHR*3600 + IMIN*60 + ISEC
-end subroutine TimeS
-
 END MODULE RMT_3D_2020_Example_13_2
-
-
