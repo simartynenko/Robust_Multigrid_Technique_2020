@@ -1,6 +1,7 @@
 MODULE  RMT_3D_2020_Example_12_2
 USE     RMT_3D_2020_Example_12_1
 USE     RMT_3D_2020
+USE     RMT_3D_TIMES
 
 PRIVATE
 
@@ -425,13 +426,6 @@ real*8      La_d,La_u,h,hL_m,hL_0,hL_p,hL_b0,hL_b1
        La_d  = 2.D0 * hL_0 * hL_m / (hL_0 + hL_m)
        La_u  = 2.D0 * hL_0 * hL_p / (hL_0 + hL_p)
 end subroutine  Lambda_Z_Faces
-
-
-subroutine  TimeS(The_Time)
-integer     IHR,IMIN,ISEC,I100TH,The_Time
-call GETTIM(IHR,IMIN,ISEC,I100TH)
-The_Time  = IHR*3600 + IMIN*60 + ISEC
-end subroutine TimeS
 
 END MODULE RMT_3D_2020_Example_12_2
 
