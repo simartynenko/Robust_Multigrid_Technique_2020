@@ -28,139 +28,114 @@ jobs:
         
     - name: Build and run example 01
       run: |
-        gfortran -O3 RMT_3D_2020_Example_01/RMT_3D_2020_Example_01.f90 -o RMT_3D_2020_Example_01/RMT_3D_2020_Example_01
-        RMT_3D_2020_Example_01/RMT_3D_2020_Example_01
+        gfortran -O3 RMT_3D_2020_Example_01/RMT_3D_2020_Example_01.f90 -o RMT_3D_2020_Example_01_M
+        ./RMT_3D_2020_Example_01_M
         
     - name: Build and run example 02
       run: |
         gfortran -O3 RMT_3D_2020_Example_02/RMT_3D_2020_Example_02_1.f90 -c -o RMT_3D_2020_Example_02_1.o
         gfortran -O3 RMT_3D_2020_Example_02/RMT_3D_2020_Example_02_2.f90 -c -o RMT_3D_2020_Example_02_2.o
-        gfortran -O3 RMT_3D_2020_Example_02/RMT_3D_2020_Example_02_M.f90 RMT_3D_2020_Example_02_1.o RMT_3D_2020_Example_02_2.o RMT_3D_TIMES.o -o RMT_3D_2020_Example_02/RMT_3D_2020_Example_02_M
-        RMT_3D_2020_Example_02/RMT_3D_2020_Example_02_M
+        gfortran -O3 RMT_3D_2020_Example_02/RMT_3D_2020_Example_02_M.f90 RMT_3D_2020_Example_02_1.o RMT_3D_2020_Example_02_2.o RMT_3D_TIMES.o -o RMT_3D_2020_Example_02_M
+        ./RMT_3D_2020_Example_02_M
         
     - name: Build and run example 03
       run: |
-        gfortran -O3 RMT_3D_2020_Example_03/RMT_3D_2020_Example_03.f90 RMT_3D_UFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_03/RMT_3D_2020_Example_03
-        RMT_3D_2020_Example_03/RMT_3D_2020_Example_03
+        gfortran -O3 RMT_3D_2020_Example_03/RMT_3D_2020_Example_03.f90 RMT_3D_UFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_03_M
+        ./RMT_3D_2020_Example_03_M
         
     - name: Build and run example 04
       run: |
-        gfortran -O3 RMT_3D_2020_Example_04/RMT_3D_2020_Example_04.f90 RMT_3D_UFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_04/RMT_3D_2020_Example_04
-        RMT_3D_2020_Example_04/RMT_3D_2020_Example_04
+        gfortran -O3 RMT_3D_2020_Example_04/RMT_3D_2020_Example_04.f90 RMT_3D_UFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_04_M
+        ./RMT_3D_2020_Example_04_M
         
     - name: Build and run example 05
       run: |
-        gfortran -O3 RMT_3D_2020_Example_05/RMT_3D_2020_Example_05.f90 RMT_3D_UFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_05/RMT_3D_2020_Example_05
-        RMT_3D_2020_Example_05/RMT_3D_2020_Example_05
+        gfortran -O3 RMT_3D_2020_Example_05/RMT_3D_2020_Example_05.f90 RMT_3D_UFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_05_M
+        ./RMT_3D_2020_Example_05_M
         cat RMT_3D_2020_Example_05.res
 
     - name: Build and run example 06
       run: |
-        gfortran -O3 RMT_3D_2020_Example_06/RMT_3D_2020_Example_06.f90 RMT_3D_UFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_06/RMT_3D_2020_Example_06
-        RMT_3D_2020_Example_06/RMT_3D_2020_Example_06
+        gfortran -O3 RMT_3D_2020_Example_06/RMT_3D_2020_Example_06.f90 RMT_3D_UFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_06_M
+        ./RMT_3D_2020_Example_06_M
         cat RMT_3D_2020_Example_06.res
         
     - name: Build and run example 07
       run: |
-        gfortran -O3 RMT_3D_2020_Example_07/RMT_3D_2020_Example_07.f90 RMT_3D_NFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_07/RMT_3D_2020_Example_07
-        RMT_3D_2020_Example_07/RMT_3D_2020_Example_07
+        gfortran -O3 RMT_3D_2020_Example_07/RMT_3D_2020_Example_07.f90 RMT_3D_NFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_07_M
+        ./RMT_3D_2020_Example_07_M
         
     - name: Build and run example 08
       run: |
-        gfortran -O3 RMT_3D_2020_Example_08/RMT_3D_2020_Example_08.f90 RMT_3D_NFG2.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_08/RMT_3D_2020_Example_08
-        RMT_3D_2020_Example_08/RMT_3D_2020_Example_08
+        gfortran -O3 RMT_3D_2020_Example_08/RMT_3D_2020_Example_08.f90 RMT_3D_NFG2.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_08_M
+        ./RMT_3D_2020_Example_08_M
 
     - name: Build and run example 09
       run: |
         gfortran -O3 RMT_3D_2020_Example_09/RMT_3D_2020_Example_09_1.f90 -c -o RMT_3D_2020_Example_09_1.o
         gfortran -O3 RMT_3D_2020_Example_09/RMT_3D_2020_Example_09_2.f90 -IRMT_Linux_x86_64 -c -o RMT_3D_2020_Example_09_2.o
-        gfortran -O3 RMT_3D_2020_Example_09/RMT_3D_2020_Example_09_M.f90 RMT_3D_2020_Example_09_1.o RMT_3D_2020_Example_09_2.o RMT_3D_UFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_09/RMT_3D_2020_Example_09_M
-        RMT_3D_2020_Example_09/RMT_3D_2020_Example_09_M
+        gfortran -O3 RMT_3D_2020_Example_09/RMT_3D_2020_Example_09_M.f90 RMT_3D_2020_Example_09_1.o RMT_3D_2020_Example_09_2.o RMT_3D_UFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_09_M
+        ./RMT_3D_2020_Example_09_M
         head -n 20 RMT_3D_2020_Example_09.res
         
     - name: Build and run example 10
       run: |
-        gfortran -O3 RMT_3D_2020_Example_10/RMT_3D_2020_Example_10_M.f90 RMT_3D_2020_Example_09_1.o RMT_3D_2020_Example_09_2.o RMT_3D_NFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_10/RMT_3D_2020_Example_10_M
-        RMT_3D_2020_Example_10/RMT_3D_2020_Example_10_M
+        gfortran -O3 RMT_3D_2020_Example_10/RMT_3D_2020_Example_10_M.f90 RMT_3D_2020_Example_09_1.o RMT_3D_2020_Example_09_2.o RMT_3D_NFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_10_M
+        ./RMT_3D_2020_Example_10_M
         head -n 20 RMT_3D_2020_Example_10.res
         
     - name: Build and run example 11
       run: |
-        gfortran -O3 RMT_3D_2020_Example_11/RMT_3D_2020_Example_11_M.f90 RMT_3D_2020_Example_09_1.o RMT_3D_2020_Example_09_2.o RMT_3D_NFG2.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_11/RMT_3D_2020_Example_11_M
-        RMT_3D_2020_Example_11/RMT_3D_2020_Example_11_M
+        gfortran -O3 RMT_3D_2020_Example_11/RMT_3D_2020_Example_11_M.f90 RMT_3D_2020_Example_09_1.o RMT_3D_2020_Example_09_2.o RMT_3D_NFG2.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_11_M
+        ./RMT_3D_2020_Example_11_M
         head -n 20 RMT_3D_2020_Example_11.res
         
     - name: Build and run example 12
       run: |
         gfortran -O3 RMT_3D_2020_Example_12/RMT_3D_2020_Example_12_1.f90 -c -o RMT_3D_2020_Example_12_1.o
         gfortran -O3 RMT_3D_2020_Example_12/RMT_3D_2020_Example_12_2.f90 -IRMT_Linux_x86_64 -c -o RMT_3D_2020_Example_12_2.o
-        gfortran -O3 RMT_3D_2020_Example_12/RMT_3D_2020_Example_12_M.f90 RMT_3D_2020_Example_12_1.o RMT_3D_2020_Example_12_2.o RMT_3D_UFG.o RMT_3D_TIMES.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_12/RMT_3D_2020_Example_12_M
-        RMT_3D_2020_Example_12/RMT_3D_2020_Example_12_M
+        gfortran -O3 RMT_3D_2020_Example_12/RMT_3D_2020_Example_12_M.f90 RMT_3D_2020_Example_12_1.o RMT_3D_2020_Example_12_2.o RMT_3D_UFG.o RMT_3D_TIMES.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_12_M
+        ./RMT_3D_2020_Example_12_M
         
     - name: Build and run example 13
       run: |
         gfortran -O3 RMT_3D_2020_Example_13/RMT_3D_2020_Example_13_1.f90 -c -o RMT_3D_2020_Example_13_1.o
         gfortran -O3 RMT_3D_2020_Example_13/RMT_3D_2020_Example_13_2.f90 -IRMT_Linux_x86_64 -c -o RMT_3D_2020_Example_13_2.o
-        gfortran -O3 RMT_3D_2020_Example_13/RMT_3D_2020_Example_13_M.f90 RMT_3D_2020_Example_13_1.o RMT_3D_2020_Example_13_2.o RMT_3D_UFG.o RMT_3D_TIMES.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_13/RMT_3D_2020_Example_13_M
-        RMT_3D_2020_Example_13/RMT_3D_2020_Example_13_M
+        gfortran -O3 RMT_3D_2020_Example_13/RMT_3D_2020_Example_13_M.f90 RMT_3D_2020_Example_13_1.o RMT_3D_2020_Example_13_2.o RMT_3D_UFG.o RMT_3D_TIMES.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_13_M
+        ./RMT_3D_2020_Example_13_M
         
     - name: Build and run example 14
       run: |
-        gfortran -O3 RMT_3D_2020_Example_14/RMT_3D_2020_Example_14.f90 RMT_3D_UFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_14/RMT_3D_2020_Example_14
-        RMT_3D_2020_Example_14/RMT_3D_2020_Example_14
+        gfortran -O3 RMT_3D_2020_Example_14/RMT_3D_2020_Example_14.f90 RMT_3D_UFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_14_M
+        ./RMT_3D_2020_Example_14_M
         cat RMT_3D_2020_Example_14.res
         
     - name: Build and run example 15
       run: |
         gfortran -O3 RMT_3D_2020_Example_15/RMT_3D_2020_Example_15_1.f90 -c -o RMT_3D_2020_Example_15_1.o
         gfortran -O3 RMT_3D_2020_Example_15/RMT_3D_2020_Example_15_2.f90 -IRMT_Linux_x86_64 -c -o RMT_3D_2020_Example_15_2.o
-        gfortran -O3 RMT_3D_2020_Example_15/RMT_3D_2020_Example_15_M.f90 RMT_3D_2020_Example_15_1.o RMT_3D_2020_Example_15_2.o RMT_3D_UFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_15/RMT_3D_2020_Example_15_M
-        RMT_3D_2020_Example_15/RMT_3D_2020_Example_15_M
+        gfortran -O3 RMT_3D_2020_Example_15/RMT_3D_2020_Example_15_M.f90 RMT_3D_2020_Example_15_1.o RMT_3D_2020_Example_15_2.o RMT_3D_UFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_15_M
+        ./RMT_3D_2020_Example_15_M
         for f in _GridsXd_*.txt; do echo "$f"; head -n 10 "$f"; done
         
     - name: Build and run example 16
       run: |
         gfortran -O3 RMT_3D_2020_Example_16/RMT_3D_2020_Example_16_1.f90 -c -o RMT_3D_2020_Example_16_1.o
         gfortran -O3 RMT_3D_2020_Example_16/RMT_3D_2020_Example_16_2.f90 -IRMT_Linux_x86_64 -c -o RMT_3D_2020_Example_16_2.o
-        gfortran -O3 RMT_3D_2020_Example_16/RMT_3D_2020_Example_16_M.f90 RMT_3D_2020_Example_16_1.o RMT_3D_2020_Example_16_2.o RMT_3D_UFG.o RMT_3D_TIMES.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_16/RMT_3D_2020_Example_16_M
-        RMT_3D_2020_Example_16/RMT_3D_2020_Example_16_M
+        gfortran -O3 RMT_3D_2020_Example_16/RMT_3D_2020_Example_16_M.f90 RMT_3D_2020_Example_16_1.o RMT_3D_2020_Example_16_2.o RMT_3D_UFG.o RMT_3D_TIMES.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_16_M
+        ./RMT_3D_2020_Example_16_M
 
     - uses: actions/upload-artifact@v2
       with:
         name: RMT_3D_2020_Example_Binaries
         path: |
-          RMT_3D_2020_Example_01/RMT_3D_2020_Example_01
-          RMT_3D_2020_Example_02/RMT_3D_2020_Example_02_M
-          RMT_3D_2020_Example_03/RMT_3D_2020_Example_03
-          RMT_3D_2020_Example_04/RMT_3D_2020_Example_04
-          RMT_3D_2020_Example_05/RMT_3D_2020_Example_05
-          RMT_3D_2020_Example_06/RMT_3D_2020_Example_06
-          RMT_3D_2020_Example_07/RMT_3D_2020_Example_07
-          RMT_3D_2020_Example_08/RMT_3D_2020_Example_08
-          RMT_3D_2020_Example_09/RMT_3D_2020_Example_09_M
-          RMT_3D_2020_Example_10/RMT_3D_2020_Example_10_M
-          RMT_3D_2020_Example_11/RMT_3D_2020_Example_11_M
-          RMT_3D_2020_Example_12/RMT_3D_2020_Example_12_M
-          RMT_3D_2020_Example_13/RMT_3D_2020_Example_13_M
-          RMT_3D_2020_Example_14/RMT_3D_2020_Example_14
-          RMT_3D_2020_Example_15/RMT_3D_2020_Example_15_M
-          RMT_3D_2020_Example_16/RMT_3D_2020_Example_16_M
-          
+          RMT_3D_2020_Example_*_M
+                  
     - uses: actions/upload-artifact@v2
       with:
         name: RMT_3D_2020_Example_Results
         path: |
-          RMT_3D_2020_Example_01.res
-          RMT_3D_2020_Example_02.res
-          RMT_3D_2020_Example_05.res
-          RMT_3D_2020_Example_06.res
-          RMT_3D_2020_Example_09.res
-          RMT_3D_2020_Example_10.res
-          RMT_3D_2020_Example_11.res
-          RMT_3D_2020_Example_12.res
-          RMT_3D_2020_Example_13.res
-          RMT_3D_2020_Example_14.res
+          RMT_3D_2020_Example_*.res
           _GridsXd_*.txt
-          RMT_3D_2020_Example_16.res
           
           
