@@ -1,7 +1,8 @@
 MODULE  RMT_3D_2020_Example_16_2
 USE     RMT_3D_2020_Example_16_1
 USE     RMT_3D_2020
-USE     RMT_3D_UFG 
+USE     RMT_3D_UFG
+USE     RMT_3D_TIMES
     
 PRIVATE    
 PUBLIC :: Starting_Guess_and_Boundary_Conditions,Mini_Cycle,Convergence_Test
@@ -547,13 +548,6 @@ write(*,1) The_number_of_multigrid_iterations,ResMAX/Res_000,ErrMAX,ITime-Time0
 write(1,1) The_number_of_multigrid_iterations,ResMAX/Res_000,ErrMAX,ITime-Time0
 1 format(i8,2(2x,D12.5),2x,i8)
 end subroutine Convergence_Test
-
-
-subroutine  TimeS(The_Time)
-integer     IHR,IMIN,ISEC,I100TH,The_Time
-call GETTIM(IHR,IMIN,ISEC,I100TH)
-The_Time  = IHR*3600 + IMIN*60 + ISEC
-end subroutine TimeS
 
 END MODULE RMT_3D_2020_Example_16_2
 
