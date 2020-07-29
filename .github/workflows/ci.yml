@@ -106,7 +106,7 @@ jobs:
       run: |
         gfortran -O3 RMT_3D_2020_Example_14/RMT_3D_2020_Example_14.f90 RMT_3D_UFG.o -LRMT_Linux_x86_64 -lRMT_3D_2020 -IRMT_Linux_x86_64 -o RMT_3D_2020_Example_14/RMT_3D_2020_Example_14
         RMT_3D_2020_Example_14/RMT_3D_2020_Example_14
-        head -n 20 RMT_3D_2020_Example_14.res
+        cat RMT_3D_2020_Example_14.res
         
     - name: Build and run example 15
       run: |
