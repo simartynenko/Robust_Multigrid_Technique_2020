@@ -4,7 +4,7 @@
 
 The repository contains examples and programs from the book 
 *“Sequential Software for the Robust Multigrid Technique”* by S.&nbsp;I.&nbsp;Martynenko, Triumph, Moscow, 2020.
-Complete text of the book in Russian is available via the [link](../blob/master/book.pdf). Abstract in English, theoretical background and description of the source code files are provided below.
+Complete text of the book in Russian is available via the [link](../master/С.%20И.%20Мартыненко%20-%20Последовательное%20программное%20обеспечение%20для%20универсальной%20многосеточной%20технологии.pdf). Abstract in English, theoretical background and description of the source code files are provided below.
 
 ## Abstract of the book
 
